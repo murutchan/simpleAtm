@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>ATM</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1 class="header">ATM</h1>
+        <p class="greater">
+          Card Return<ion-icon name="card-outline" class="qc"></ion-icon>
+        </p>
+      </div>
+
+      <!--First Row -->
+      <div class="row">
+        <div class="col-1-of-3">
+          <p class="description">Welcome</p>
+          <p class="subtitle name">Steph Curry</p>
+        </div>
+        <div class="col-1-of-3">
+          <div class="btn btn-full m getCash">Get Cash</div>
+        </div>
+        <div class="col-1-of-3">
+          <div class="btn btn-full m deposit">Deposit</div>
+        </div>
+      </div>
+
+      <!--Second Row -->
+      <div class="row">
+        <div class="col-1-of-3">
+          <p class="description">Account Balance</p>
+          <p class="subtitle accountBalance">$2380</p>
+        </div>
+        <div class="col-1-of-3">
+          <div class="btn btn-full m payment">Payment</div>
+        </div>
+        <div class="col-1-of-3">
+          <div class="btn btn-full m printReceipt">Print Receipt</div>
+        </div>
+      </div>
+
+      <!--Third Row -->
+      <div class="row">
+        <div class="col-1-of-3">
+          <p class="description">Savings #2</p>
+          <p class="subtitle savings">$795</p>
+        </div>
+        <div class="col-1-of-3">
+          <div class="btn btn-full m transfer">Transfer</div>
+        </div>
+        <div class="col-1-of-3">
+          <div class="btn btn-full m exit">Exit</div>
+        </div>
+      </div>
+
+      <!--Button Row -->
+      <div class="row">
+        <div class="col-1-of-3"></div>
+        <div class="col-2-of-3">
+          <div class="btn btn-full btn-info m">
+            <div class="span">$70</div>
+            Quick Cash<ion-icon name="arrow-redo" class="qc"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrong-pin hidden">
+      <div class="display-3">Sorry, wrong pin number, try again later</div>
+    </div>
+
+    <div class="receipt hidden">
+      <div class="receipt-header">
+        <h3>Dear <span class="receipt-name"> name </span></h3>
+
+        <h5>Your balance is <span class="receipt-balance"> name </span> $</h5>
+        <h4>Have a great day!!!</h4>
+        <button class="btn btn-light" id="button-close">close</button>
+      </div>
+    </div>
+
+    <div class="exit-modal hidden">
+      <h1>Have a great day!!! See you soon</h1>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

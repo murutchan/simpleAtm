@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom left, #0bfc8097, #01b4f5);
+  color: white;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: #05a918;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(154, 7, 7, 0.544);
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
+
+.row {
+  width: 100%;
+}
+
+.title {
+  margin-top: 2rem;
+}
+
+.header {
+  float: left;
+}
+.greater {
+  float: right;
+}
+
+.col-1-of-3 {
+  width: 33.2%;
+  float: left;
+}
+
+.col-2-of-3 {
+  width: 66.4%;
+}
+
+.btn-full {
+  display: block;
+}
+
+.m {
+  margin: 3px;
+}
+
+.span {
+  display: inline;
+  float: left;
+  margin-left: 3rem;
+  font-weight: 800;
+}
+
+.btn {
+  padding: 1.5rem;
+  border-radius: 0;
+  background-color: #f5e101af;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #f6006b;
+}
+
+.btn-info {
+  background-color: #80128caf;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: #014760;
+  margin-top: 0;
+  margin-bottom: 2px;
+  padding: 0;
+}
+.subtitle {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.ml {
+  margin-left: 3px;
+}
+
+.qc {
+  margin-left: 5px;
+}
+
+.wrong-pin {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: #05a918;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(154, 7, 7, 0.544);
+  z-index: 10;
+}
+
+.receipt {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: #05a918;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(154, 7, 7, 0.544);
+  z-index: 10;
+}
+
+.receipt-name,
+.receipt-balance {
+  font-size: 2rem;
+}
+.receipt-header {
+  margin-left: 100px;
+  position: relative;
+}
+
+#button-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.exit-modal {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: #05a918;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(154, 7, 7, 0.544);
+  z-index: 10;
+}
